@@ -1,0 +1,151 @@
+/* общие стили */
+body {
+	background-color: rgb(223, 227, 236);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	margin: 0px;
+	color: rgb(85, 86, 90);
+}
+
+h2 {
+	text-align: center;
+}
+
+li {
+	line-height: 1.8;
+}
+
+section {
+	padding: 0 15px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 2px 2px 2px 0 rgb(85, 86, 90);
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.name, .birth, .avatar, .education, .skills, .key-points, .experience, .certification, .i-want, .date, .department, .degree, .part-1, .portfolio, .part-2 {
+	vertical-align: top;
+	display: inline-block;
+}
+
+
+/* стили для двойных ячеек*/
+.part {
+	width: 1150px;
+	margin: 10px auto;
+}
+
+.part-1 {
+	width: 420px;
+	margin-right: 20px;
+}
+
+.part-2 {
+	width: 320px;
+	margin-right: 20px;
+}
+
+
+/* стили для блоков */
+
+.avatar {
+	padding: 18px 10px;
+	text-align: center;
+	width: 300px;
+}
+
+.education {
+	width: 390px;
+}
+
+.skills {
+	width: 390px;
+}
+
+.portfolio {
+	width: 300px;
+}
+
+.key-points {
+	width: 290px;
+}
+
+.certification {
+	padding-bottom: 20px;
+	width: 290px
+}
+
+.i-want {
+	width: 290px;
+}
+
+.experience {
+	width: 745px;
+}
+
+/* свойства для avatar */
+.avatar img{
+	width: 300px;
+	margin-bottom: 10px;
+}
+
+.avatar a{
+	color: rgb(85, 86, 90);
+	font-weight: 400;
+	text-decoration: none;
+	border-bottom: 2px solid rgb(34, 221, 188);
+}
+.avatar a:hover {
+	color: rgb(0, 0, 0);
+}
+
+/* свойства для education */
+.education .uni-name {
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.education .status {
+	margin: 15px;
+}
+.education .degree {
+	margin-left: 80px; 
+}
+
+/* свойства для portfolio */
+.portfolio h2 {
+	margin-top: 15px;
+}
+.portfolio a img {
+	width: 300px;
+	margin-bottom: 10px;
+}
+.portfolio a:last-child img {
+	margin-bottom: 0px;
+}
+
+
+/*Свойство для certification*/
+
+.certification a {
+	color: rgb(85, 86, 90);
+	font-weight: 400;
+	text-decoration: none;
+	border-bottom: 2px solid rgb(34, 221, 188);
+}
+.certification a:hover {
+	color: rgb(0, 0, 0);
+}
+
+/*Свойство для experience*/
+.experience .position {
+	margin-bottom: 15px;
+}
+
+
+/* стили для section*/
+section:hover {
+	box-shadow: 3px 3px 4px 0 rgb(85, 86, 90);
+}
+
+
