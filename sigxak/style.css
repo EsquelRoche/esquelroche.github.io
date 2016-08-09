@@ -1,0 +1,567 @@
+* {
+	font-family: "Open Sans";
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	margin: 0 auto;
+	width:1900px;
+	height: 950px;
+	background: url("./img/Layer 1.png");
+	background-position: 50% 20%;
+	text-align: center;
+	color: white;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+header h1 {
+	font-size: 80px;
+	padding-top: 400px;
+}
+header h2 {
+	font-size: 40px;
+	padding-top: 2%;
+}
+header p {
+	font-size: 25px;
+	padding-top: 1%;
+	text-transform: uppercase;
+}
+.menu {
+	margin: 0 auto;
+	width:1900px;
+	height: 50px;
+	background-color: rgb(0, 163, 136);
+	text-align: center;
+}
+
+.menu li {
+	margin: 10px 10px;
+	display: inline-block;
+}
+
+.menu li::after {
+	content: '//';
+	color: white;
+	margin-left: 20px;
+	font-size: 20px;
+}
+.menu li:last-child::after {
+	content: '';
+}
+
+.menu li a {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.about {
+	padding: 100px 0;
+	margin: 0px auto;
+	width:1900px;
+	text-align: center;
+	background-color: rgb(236,255,252);
+}
+
+.about h2 {
+	text-transform: uppercase;
+	font-size: 45px;
+	line-height: 0.7;
+}
+
+.about h2::after {
+	content: "\A...";
+	font-size: 45px;
+	white-space: pre;
+	line-height: 0.5;
+}
+.about .slogan {
+	margin-top: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.column {
+	display: inline-block;
+	text-align: justify;
+	width: 650px;
+	margin: 40px 50px;
+	line-height: 2;
+}
+
+.stuff {
+	width: 1900px;
+	text-align: center;
+}
+
+.stuff-card {
+	margin-right: 105px;
+	display:inline-block;
+	width: 270px;
+	transition: all;
+	transition-duration: 0.2s;
+}
+
+.stuff-card:last-child {
+	margin-right: 0px;
+}
+
+.name {
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 15px 0;
+}
+
+.name::before {
+	margin-right: 15px;
+	content: "//";
+}
+
+.name::after {
+	margin-left: 15px;
+	content: "//";
+}
+
+.description {
+	font-size: 13px;
+	margin: 10px 20px;
+	text-align: justify;
+	line-height: 1.8;
+	visibility: hidden;
+}
+.icons {
+	display: inline-block;
+	margin: 20px 5px;
+	width: 25px;
+	height: 25px;
+	visibility: hidden;
+}
+
+.fb {
+	background: url("./img/facebook.png") no-repeat -4px -4px;
+}
+.tumblr {
+	background: url("./img/tumblr.png") no-repeat -4px -6px;
+}
+.linkedin {
+	background: url("./img/linkedin.png") no-repeat -4px -4px;
+}
+.vimeo {
+	background: url("./img/vimeo.png") no-repeat -4px -4px;
+}
+
+.stuff-card:hover {
+	background-color: rgb(0, 163, 136);
+	color: white;
+	visibility: visible;
+}
+
+.stuff-card:hover .description{
+	visibility: visible;
+}
+
+.stuff-card:hover .icons{
+	visibility: visible;
+}
+
+.portfolio {
+	margin: 0px auto;
+	width:1900px;
+	text-align: center;
+	background-color: rgb(236,255,252);
+}
+
+.portfolio h2 {
+	text-transform: uppercase;
+	font-size: 45px;
+	line-height: 0.7;
+}
+
+.portfolio h2::after {
+	content: "\A...";
+	font-size: 45px;
+	white-space: pre;
+	line-height: 0.5;
+}
+.portfolio .menu {
+	padding-top: 15px;
+	background-color: rgb(236,255,252);
+}
+
+.portfolio .menu a{
+	color: black;
+}
+
+.portfolio .menu li::after {
+	color: black;
+}
+
+.photos {
+	width:1900px;
+}
+
+.photo-photos {
+	display: inline-block;
+	margin-right: -4px;
+	margin-bottom: 0px;
+	width: 475px;
+	height: 318px;
+}
+
+.photo-photos .details {
+	height: 318px;
+	background: rgba(0, 163, 136, 0.5);
+	visibility: hidden;
+}
+
+.details h3 {
+	padding-top: 100px;
+	text-transform: uppercase;
+	color:white;
+	font-size: 35px;
+}
+
+.details p {
+	margin-top: 10px;
+	text-transform: uppercase;
+	color:white;
+	font-size: 20px;
+}
+
+.details .btn {
+	margin-top: 10px;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	background: url("./img/higher@2x.png"), url("./img/larger@2x.png") no-repeat;
+	background-position: -3px -6px, -4px -9px;
+}
+
+.photo-photos:hover .details{
+	visibility: visible;
+}
+
+
+.photos-1 {
+	background: url("./img/2.png");
+}
+
+.photos-2 {
+	background: url("./img/6.png");
+}
+
+.photos-3 {
+	background: url("./img/8.png");
+}
+
+.photos-4 {
+	background: url("./img/14.png");
+}
+
+.photos-5 {
+	background: url("./img/12.png");
+}
+.photos-6 {
+	background: url("./img/10.png");
+}
+
+.photos-7 {
+	background: url("./img/15.png");
+}
+
+.photos-8 {
+	background: url("./img/3.png");
+}
+
+
+.services {
+	margin: 50px auto;
+	width:1900px;
+	text-align: center;
+}
+
+.services h2 {
+	text-transform: uppercase;
+	font-size: 45px;
+	line-height: 0.7;
+}
+
+.services h2::after {
+	content: "\A...";
+	font-size: 45px;
+	white-space: pre;
+	line-height: 0.5;
+}
+
+.services .slogan {
+	margin-top: 40px;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.services .column {
+	margin: 30px 50px;
+	vertical-align: top;
+}
+
+.services .column:hover {
+	background-color: rgb(236,255,252);
+}
+
+.services .column .img-bg {
+	width: 80px;
+	height: 80px;
+	background-color: rgb(0, 163, 136);
+}
+
+.img-1 {
+	background: url("./img/phone.png") no-repeat;
+	background-position: 6px 10px;
+}
+
+.img-2 {
+	background: url("./img/layout 15.png") no-repeat;
+	background-position: 13px 12px;
+}
+
+.img-3 {
+	background: url("./img/settings 12.png") no-repeat;
+	background-position: 9px 20px;
+}
+
+.img-4 {
+	background: url("./img/clock.png") no-repeat;
+	background-position: 9px 10px;
+}
+
+.services .column h3 {
+	font-size: 30px;
+}
+
+.services .column p {
+	margin: 0 10px;
+}
+
+.services .column a {
+	margin-right: 10px;
+	display: block;
+	text-align: right;
+	font-weight: bold;
+	color: black;
+}
+
+.blog {
+	margin: 0 auto;
+	padding: 80px 0;
+	width:1900px;
+	text-align: center;
+	background-color: rgb(236,255,252);
+}
+
+.blog h2 {
+	text-transform: uppercase;
+	font-size: 45px;
+	line-height: 0.7;
+}
+
+.blog h2::after {
+	content: "\A...";
+	font-size: 45px;
+	white-space: pre;
+	line-height: 0.5;
+}
+
+.blog .slogan {
+	margin-top: 25px;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.img-photo {
+	width: 280px;
+	height: 250px;
+	overflow: hidden;
+}
+
+.img-photo img {
+	position:relative;
+	right: 5%;
+}
+
+.events {
+	margin: 0 auto;
+	width: 1500px;
+}
+
+.event-card {
+		margin-top: 50px;
+		margin-right: 25px;
+		display: inline-block;
+		width: 280px;
+		background-color: white;
+}
+
+.blog {
+	width: 1900px;
+}
+
+.event-card a {
+	display: block;
+	margin: 10px 10px;
+	font-size: 20px;
+	color: rgb(0, 163, 136);
+	text-align: left;
+}
+
+.event-card h3 {
+	margin: 0 10px;
+	text-align: justify;	
+}
+
+.event-card p {
+	margin: 20px 10px;
+	text-align: justify;	
+}
+
+.contacts {
+	margin: 0 auto;
+	width: 1900px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.contacts iframe {
+	text-align: center;
+	width: 1900px;
+	height: 700px;
+}
+
+.contacts h2 {
+	margin: 30px 0px 40px;
+	text-transform: uppercase;
+	font-size: 45px;
+	line-height: 0.7;
+}
+
+.contacts h2::after {
+	content: "\A...";
+	font-size: 45px;
+	white-space: pre;
+	line-height: 0.5;
+}
+
+.action-form {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.client-name {
+	vertical-align: top;
+	display: inline-block;
+	text-align: left;
+	width: 370px;
+	margin: 0 auto;
+}
+
+.client-name input {
+	color: white;
+	border: none;
+	background: rgb(20, 14, 29);
+	padding: 15px 20px;
+	font-size: 16px;
+	width: 300px;
+	border-radius: 3px;
+	margin: 10px 10px;
+}
+
+textarea {
+	color: white;
+	border: none;
+	background: rgb(20, 14, 29);
+	padding: 15px 20px;
+	font-size: 16px;
+	width: 300px;
+	border-radius: 3px;
+	margin: 10px 10px;
+	height: 95px;
+	resize: none;
+
+}
+
+input[type="submit"] {
+	border: none;
+	background: rgb(20, 14, 29);
+	color: white;
+	text-transform: uppercase;
+	font-size: 16px;
+	margin: 20px;
+	padding: 10px 30px;
+	border-radius: 10px;
+}
+
+footer .menu {
+	background: rgb(2, 197,165);
+	height: 80px;
+}
+
+footer .menu li {
+	margin-top: 30px;
+
+}
+
+footer .menu li a {
+	margin: 0 -10px;
+	font-size: 16px;
+}
+
+.address {
+	width: 1900px;
+	background: rgb(0, 163, 136);
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer .column {	
+	margin-right: 10px;
+	display: inline-block;
+	width: 150px;
+	color: white;
+}
+
+.social {
+	vertical-align: top;
+	margin-top: 50px;
+	margin-left: 700px;
+	display: inline-block;
+	width: 300px;
+	height: 70px;
+}
+
+.address .social .icn {
+	display: inline-block;
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	margin-right: 15px;
+}
+
+.icn.facebook{
+	background: url("./img/Facebook2.png") no-repeat;
+	background-position: 50%;
+}
+.icn.twitter{
+	background: url("./img/Twitter2.png") no-repeat;
+	background-position: 50%;
+}
+.icn.linkedin{
+	background: url("./img/Linkedin2.png") no-repeat;
+	background-position: 50%;
+}
+.icn.vimeo{
+	background: url("./img/Vimeo2.png") no-repeat;
+	background-position: 50%;
+}
